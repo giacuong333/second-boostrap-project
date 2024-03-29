@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Album</title>
+
+    <!-- CDN Boostrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- CDN Boostrap Js  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <!-- Font icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <section class="section-header p-2" style="background-color: #212529 !important; color: #fff !important">
+      <div class="container">
+        <!-- Header -->
+        <div class="row">
+          <div class="collapse my-4" id="collapse-header">
+            <div class="collapse-card container">
+              <div class="row">
+                <div class="col col-sm-7">
+                  <h4>About</h4>
+                  <p style="color: #6c757d !important">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+                </div>
+                <div class="col col-sm-4 ms-5">
+                  <h4>Contact</h4>
+                  <ul style="list-style-type: none" class="p-0 m-0">
+                    <li><a class="" style="color: #fff !important" href="#">Follow on Twitter</a></li>
+                    <li><a class="" style="color: #fff !important" href="#">Like on Facebook</a></li>
+                    <li><a class="" style="color: #fff !important" href="#">Email me</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <header class="header d-flex justify-content-between align-items-center" data-bs-toggle="collapse" data-bs-target="#collapse-header" aria-expanded="false" aria-controls="collapse-header" style="color: #fff">
+            <div class="header-left">
+              <i class="fa fa-camera me-1 fs-4"></i>
+              <h4 class="d-inline">Album</h4>
+            </div>
+
+            <div class="header-right border border-secondary btn rounded-3 px-3 py-2" style="color: rgba(255, 255, 255, 0.55); cursor: pointer">
+              <i class="fa fa-bars fs-4"></i>
+            </div>
+          </header>
+        </div>
+      </div>
+    </section>
+
+    <!-- Body -->
+    <section class="section-body my-4 py-lg-5 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col col-sm-3"></div>
+          <div class="col col-sm-6">
+            <p class="fs-1 m-1" style="font-weight: 200">Album example</p>
+            <p class="fs-5" style="color: #6c757d !important; font-weight: 200">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+            <div class="section-body-btns" role="group">
+              <button type="button" class="btn btn-primary">Main call to action</button>
+              <button type="button" class="btn btn-secondary">Secondary action</button>
+            </div>
+          </div>
+          <div class="col col-sm-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cards -->
+    <section class="section-cards py-5" style="background-color: #f8f9fa !important">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col col-sm-4">
+            <div class="card shadow-sm" style="background-color: #55595c; border: solid 1px #e4e4e4">
+              <img src="" alt="" class="card-img-top" style="width: 100%; height: 18rem; object-fit: cover; object-position: center" />
+              <div class="card-body bg-white">
+                <div class="card-title mb-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</div>
+                <div class="card-btns-time d-flex justify-content-between align-items-center">
+                  <div class="card-btns btn-group" role="group">
+                    <button type="button" class="btn btn-outline-secondary" style="color: #6c757d">View</button>
+                    <button type="button" class="btn btn-outline-secondary" style="color: #6c757d">Edit</button>
+                  </div>
+                  <span class="" style="color: #6c757d">9 mins</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-4">
+            <div class="card shadow-sm" style="background-color: #55595c; border: solid 1px #e4e4e4">
+              <img src="" alt="" class="card-img-top" style="width: 100%; height: 18rem; object-fit: cover; object-position: center" />
+              <div class="card-body bg-white">
+                <div class="card-title mb-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</div>
+                <div class="card-btns-time d-flex justify-content-between align-items-center">
+                  <div class="card-btns btn-group" role="group">
+                    <button type="button" class="btn btn-outline-secondary" style="color: #6c757d">View</button>
+                    <button type="button" class="btn btn-outline-secondary" style="color: #6c757d">Edit</button>
+                  </div>
+                  <span class="" style="color: #6c757d">9 mins</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-4">
+            <div class="card shadow-sm" style="background-color: #55595c; border: solid 1px #e4e4e4">
+              <img src="" alt="" class="card-img-top" style="width: 100%; height: 18rem; object-fit: cover; object-position: center" />
+              <div class="card-body bg-white">
+                <div class="card-title mb-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</div>
+                <div class="card-btns-time d-flex justify-content-between align-items-center">
+                  <div class="card-btns btn-group" role="group">
+                    <button type="button" class="btn btn-outline-secondary" style="color: #6c757d">View</button>
+                    <button type="button" class="btn btn-outline-secondary" style="color: #6c757d">Edit</button>
+                  </div>
+                  <span class="" style="color: #6c757d">9 mins</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col col-sm-4">
+            <div class="card shadow-lg" style="background-color: #55595c; border: solid 1px #e4e4e4">
+              <img src="" alt="" class="card-img-top" style="width: 100%; height: 18rem; object-fit: cover; object-position: center" />
+              <div class="card-body bg-white">
+                <div class="card-title mb-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</div>
+                <div class="card-btns-time d-flex justify-content-between align-items-center">
+                  <div class="card-btns btn-group" role="group">
+                    <button type="button" class="btn btn-outline-secondary" style="color: #6c757d">View</button>
+                    <button type="button" class="btn btn-outline-secondary" style="color: #6c757d">Edit</button>
+                  </div>
+                  <span class="" style="color: #6c757d">9 mins</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-4">
+            <div class="card shadow-sm" style="background-color: #55595c; border: solid 1px #e4e4e4">
+              <img src="" alt="" class="card-img-top" style="width: 100%; height: 18rem; object-fit: cover; object-position: center" />
+              <div class="card-body bg-white">
+                <div class="card-title mb-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</div>
+                <div class="card-btns-time d-flex justify-content-between align-items-center">
+                  <div class="card-btns btn-group" role="group">
+                    <button type="button" class="btn btn-outline-secondary" style="color: #6c757d">View</button>
+                    <button type="button" class="btn btn-outline-secondary" style="color: #6c757d">Edit</button>
+                  </div>
+                  <span class="" style="color: #6c757d">9 mins</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-4">
+            <div class="card shadow-sm" style="background-color: #55595c; border: solid 1px #e4e4e4">
+              <img src="" alt="" class="card-img-top" style="width: 100%; height: 18rem; object-fit: cover; object-position: center" />
+              <div class="card-body bg-white">
+                <div class="card-title mb-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</div>
+                <div class="card-btns-time d-flex justify-content-between align-items-center">
+                  <div class="card-btns btn-group" role="group">
+                    <button type="button" class="btn btn-outline-secondary" style="color: #6c757d">View</button>
+                    <button type="button" class="btn btn-outline-secondary" style="color: #6c757d">Edit</button>
+                  </div>
+                  <span class="" style="color: #6c757d">9 mins</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col col-sm-4">
+            <div class="card shadow-sm" style="background-color: #55595c; border: solid 1px #e4e4e4">
+              <img src="" alt="" class="card-img-top" style="width: 100%; height: 18rem; object-fit: cover; object-position: center" />
+              <div class="card-body bg-white">
+                <div class="card-title mb-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</div>
+                <div class="card-btns-time d-flex justify-content-between align-items-center">
+                  <div class="card-btns btn-group" role="group">
+                    <button type="button" class="btn btn-outline-secondary" style="color: #6c757d">View</button>
+                    <button type="button" class="btn btn-outline-secondary" style="color: #6c757d">Edit</button>
+                  </div>
+                  <span class="" style="color: #6c757d">9 mins</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-4">
+            <div class="card shadow-sm" style="background-color: #55595c; border: solid 1px #e4e4e4">
+              <img src="" alt="" class="card-img-top" style="width: 100%; height: 18rem; object-fit: cover; object-position: center" />
+              <div class="card-body bg-white">
+                <div class="card-title mb-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</div>
+                <div class="card-btns-time d-flex justify-content-between align-items-center">
+                  <div class="card-btns btn-group" role="group">
+                    <button type="button" class="btn btn-outline-secondary" style="color: #6c757d">View</button>
+                    <button type="button" class="btn btn-outline-secondary" style="color: #6c757d">Edit</button>
+                  </div>
+                  <span class="" style="color: #6c757d">9 mins</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-sm-4">
+            <div class="card shadow-sm" style="background-color: #55595c; border: solid 1px #e4e4e4">
+              <img src="" alt="" class="card-img-top" style="width: 100%; height: 18rem; object-fit: cover; object-position: center" />
+              <div class="card-body bg-white">
+                <div class="card-title mb-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</div>
+                <div class="card-btns-time d-flex justify-content-between align-items-center">
+                  <div class="card-btns btn-group" role="group">
+                    <button type="button" class="btn btn-outline-secondary" style="color: #6c757d">View</button>
+                    <button type="button" class="btn btn-outline-secondary" style="color: #6c757d">Edit</button>
+                  </div>
+                  <span class="" style="color: #6c757d">9 mins</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="section-footer py-5">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col col-sm-7">
+            <span style="color: #6c757d; line-height: 1.8rem"
+              >Album example is © Bootstrap, but please download and customize it for yourself! <br />
+              New to Bootstrap?<a href=""> Visit the homepage</a> or read our <a href="">getting started guide</a>.</span
+            >
+          </div>
+          <div class="col col-sm-5 text-end">
+            <a class="back-to-top" href="">Back to top</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
